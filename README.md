@@ -1,9 +1,15 @@
-ai_diversity_collaboration
+# ai_diversity_collaboration
 ==============================
 
-A short description of the project.
+Repo for a collaborative analysis of thematic diversity in AI research using data from OpenAlex.
 
-Project Organization
+## Installation
+
+Run: 
+* `conda env create -f conda_environment.yam` to create the virtual environment
+* `pip install -r requirements.txt` to install key packages and create the `ai_diversity` package.
+
+## Project Organization
 ------------
 
     ├── LICENSE
