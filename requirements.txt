@@ -15,3 +15,5 @@ scikit-learn
 altair
 toolz
 matplotlib
+zenodo_get
+jupyterlab

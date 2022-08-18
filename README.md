@@ -9,6 +9,22 @@ Run:
 * `conda env create -f conda_environment.yam` to create the virtual environment
 * `pip install -r requirements.txt` to install key packages and create the `ai_diversity` package.
 
+## Fetch data
+
+You will fetch the data from this [Zenodo deposit](https://zenodo.org/record/6997721#.Yv36wOzMJqt).
+
+In order to download all the files in `data/raw` run: 
+```bash
+cd data/raw;
+zenodo_get 10.5281/zenodo.6997721;
+```
+
+NB this includes markdown files with data dictionaries and a summary of the methodology we used to create the dataset.
+
+## Read the data
+
+You can fetch the data
+
 ## Project Organization
 ------------
 
@@ -38,7 +54,7 @@ Run:
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
+    ├── ai_diversity                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
